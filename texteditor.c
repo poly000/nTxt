@@ -114,7 +114,7 @@ int main(int argc, char* argv[])
         }
         ++fps;
 
-        sleep(10); //i.e. <= 100fps
+        msleep(10); //i.e. <= 100fps
 
         //disp
         showBuffer(scrbuf);

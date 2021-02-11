@@ -46,7 +46,7 @@ int menu(void* scrbuf, const char* menuentries[])
     int inputpause = INPUTPAUSE;
 
     while (1) {
-        sleep(10); //results in around 63 fps
+        msleep(10); //results in around 63 fps
 
         lastitem = dispMenu(scrbuf, 0, 0, menuentries, selecteditem);
         showBuffer(scrbuf);

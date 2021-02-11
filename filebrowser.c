@@ -258,7 +258,7 @@ int filebrowser(void* scrbuf, char* file, char* title)
                 return 0;
             }
         }
-        sleep(10);
+        msleep(10);
     }
 
     free_filenames(filenames);
